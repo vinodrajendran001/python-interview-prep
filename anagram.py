@@ -19,7 +19,7 @@ def getstr1(a, b):
 		print "length is not same"
 
 
-# It is still O(n^2) because we use sort()
+# It is O(nlogn) because we use sort()
 def getstr2(a, b):
 
 	s1 = list(a)
@@ -64,3 +64,4 @@ def getstr3(a, b):
 getstr1("python","typhon")
 print(getstr2("python","typhon"))
 getstr3("typhon","python")
+
