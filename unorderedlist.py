@@ -1,5 +1,5 @@
 '''
-implementation of unordered list in python
+implementation of ordered and unordered list in python
 '''
 class Node:
 	def __init__(self, initdata):
